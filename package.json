@@ -1,0 +1,19 @@
+{
+    "name": "outlay-payments",
+    "version": "0.1.0",
+    "description": "Control some numbers",
+    "main": "index.js",
+    "repository": "git@github.com:necrifede/outlay-payments.git",
+    "author": "Nestor Felipe <necrifede@gmail.com>",
+    "license": "MIT",
+    "private": true,
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "engines": {
+        "node": ">=17.6.0",
+        "yarn": ">=1.22.18",
+        "npm": "use-yarn-instead-npm-v8.5.1"
+    }
+}
